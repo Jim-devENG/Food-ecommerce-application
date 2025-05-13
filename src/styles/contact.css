@@ -1,0 +1,56 @@
+.contact__info {
+  padding: 20px;
+  background: #fde4e4;
+  border-radius: 5px;
+}
+
+.contact__info h6 {
+  color: #212245;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.contact__info p {
+  font-size: 0.9rem;
+  color: #212245;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__group input,
+.form__group textarea {
+  width: 100%;
+  background: #fde4e4;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.9rem;
+  color: #212245;
+}
+
+.form__group input:focus,
+.form__group textarea:focus {
+  outline: none;
+}
+
+.form__group textarea {
+  resize: none;
+}
+
+.social__link-icon {
+  color: #212245;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
+.social__link-icon:hover {
+  color: #df2020;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact__info {
+    margin-top: 30px;
+  }
+} 
